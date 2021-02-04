@@ -5,4 +5,4 @@ The Pomodoro Technique was developed by Francesco Cirillo using a tomato-shaped 
 
 This uses a Raspberry Pi Pico and Unicorn Pack instead. Press the X button to start a work session and the LEDs illuminate in red, then blink out one at a time over the course of 25 minutes. After the work cycle completes, the LEDs illuminate green and blink out over five minutes. The process then repeats by initiating a new work cycle.
 
-Pressing the Y button terminates the process and returns the Pico to its rest state.
+The alternating cycles continue until the Y button is pressed. This terminates the process and returns the Pico to its rest state.
