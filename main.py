@@ -1,5 +1,5 @@
 import math
-import time
+import utime
 import picounicorn
 
 picounicorn.init()
@@ -27,7 +27,7 @@ def pomocycle():
             while column > -1:
                 for x in range(multiplier):
                     if not(picounicorn.is_pressed(picounicorn.BUTTON_Y)):
-                           time.sleep(0.1)
+                           utime.sleep(0.1)
                     else:
                         break
                 picounicorn.set_pixel(column, row, 0, 0, 0)
